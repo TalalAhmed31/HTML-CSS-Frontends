@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+body{
+   background: url('ubit.jpeg') no-repeat center center fixed;
+   background-size: cover;
+   color: #fff
+}
+#survey{
+    background-color: rgb(0,0,0,0.5);
+    position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100em;
+  margin:none;
+  padding:0;
+}
+/* body::after{
+    content:''; */
+  
+   /* background-image: url('ubit.jpeg'); */
+   /* background-repeat: no-repeat;
+  background-position: center;   */
+/*   
+  position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity: 0.7 Here is your opacity
+} */
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight:bolder;
+}
+#description{
+    text-align: center;
+    font-size: 30px;
+    font-family: poppins;
+    font-style: italic;
+    font-style: oblique;
+    font-weight: 900;
+}
+#survey-form{
+    display: block;
+    padding-top: 3em;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 4em;
+    padding-bottom: 3em;
+    background-color: rgba(0, 0, 0, 0.404) ;
+}
+#name, #age, #email, #number, #dropdown, #comments-box{
+    display: block;
+    margin: 0 auto;
+    height:34px;
+    width:56em;
+    border:none;
+    padding: 10px ;
+    margin-top: 1em;
+    border-radius: 15px;
+    background-color: #fff;
+}
+#name-label, #number-label, #email-label, #select-label, #text-label, #course-label, #recommend-label{
+    display: block;
+    margin-left: 4.5em;
+    font-family: poppins;
+    font-size: large;
+    font-weight: 700;
+}
+.check, .radio{
+    margin-left: 7em;
+}
+.option-label{
+    display: block;
+    margin-left: 8px;
+    font-family: poppins;
+    font-size: large;
+
+}
+.sub-div-se{
+    margin-top: 5px;
+}
+.sub-div{
+    margin-top: 20px;
+}
+#dropdown{
+    height: 53px;
+    width: 57em;
+}
+/* #submit{
+    
+    margin-left:26em;
+    margin-top:1em;
+    height:45px;
+    width:10em;
+    border-radius:50px;
+    border:solid black 1px;
+    background-color:rgb(19, 166, 11);
+    color:#fff;
+    cursor:pointer;
+    font-family: poppins;
+    text-align: center;
+} */
+#submit{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 92px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 22em;
+  margin-top: 20px;
+  cursor:pointer;
+  transition-duration: 0.5s;
+}
+#submit:hover {
+    background-color: #fff; /* Green */
+    color: #4CAF50;
+  }

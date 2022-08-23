@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="survey">
+        <h1 id="title">Umar Basha Institute of Information Technology</h1>
+        <p id="description">Thankyou for taking time to fill this form</p>
+        
+        <form id="survey-form" method="post">
+            <div class="form-inner">
+                <div class="sub-div">
+                        <label for="name" id="name-label">Name</label><br>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="sub-div">
+                    <label for="email" id="email-label">Email</label><br>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="sub-div">
+                    <label for="age" id="number-label">Age</label><br>
+                    <input type="number" id="number" placeholder="Enter your age" min="18" max="65" required>
+                </div>
+                <div class="sub-div">
+                    <label for="dropdown" id="select-label">Choose program in which you are studying</label><br>
+                    <select name="program" id="dropdown">
+                        <option value="Bscs"> BS Computer Science</option>
+                        <option value="Bsse">BS Software Engineering</option>
+                        <option value="Mscs">MS Computer Science</option>
+                        <option value="MSSE">MS Software Engineering</option>
+                    </select><br>
+                </div>
+                <div class="sub-div">
+                    <label id="course-label" for="course">Courses in which you are enrolled;</label><br>
+                </div>
+                <div class="sub-div-se">
+                    <label class="option-label" for="first-check"><input type="checkbox" class="check" id="first-check" name="courses" value="course-frontend">Frontend Development</label><br>
+                    <label class="option-label" for="second-check"><input type="checkbox" class="check" id="second-check" name="courses" value="course-backend">Backend Development</label><br>
+                    <label class="option-label" for="third-check"><input type="checkbox" class="check" id="third-check" name="courses" value="course-fstack">Fullstack Development</label><br>
+                    <label class="option-label" for="fourth-check"><input type="checkbox" class="check" id="fourth-check" name="courses" value="Blockhain-frontend">Blockchain Development</label><br>
+                    <label class="option-label" for="fifth-check"><input type="checkbox" class="check" id="fifth-check" name="courses" value="DataScience">DataScience</label><br>
+                </div>
+                <div class="sub-div">
+                    <label id="recommend-label" for="recommend">Would you recommend UBIT to your friends?</label><br>
+                </div>
+                <div class="sub-div-se">
+                    <label for="first-radio" class="option-label"><input type="radio" class="radio" name="recommend" value="Definitely">Definitely</label><br>
+                    <label for="second-radio" class="option-label"><input type="radio" class="radio" name="recommend" value="Maybe">Maybe</label><br>
+                    <label for="third-radio"class="option-label"><input type="radio" class="radio" name="recommend" value="Not sure">Not sure</label><br>
+                </div>
+                <div class="sub-div">
+                    <label for="" id="text-label">Feed back</label>
+                </div>
+                    <div class="sub-div-se">
+                        <textarea name="comments" id="comments-box" cols="30" rows="7" placeholder="Any Comments..."></textarea><br>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="submit" id="submit">
+                    </div>
+
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
