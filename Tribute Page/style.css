@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(251, 251, 251);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#main{
+    background-color: rgba(8, 85, 5, 0.904);
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+#title{
+    text-align: center;
+    color: white;
+}
+#main>p{
+    text-align: center;
+}
+#img-div{
+    background-color: white;
+    max-width:400px;
+    margin: 0 auto;
+    padding: 25px;
+    height:auto;
+    border-radius: 4px;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+#img-caption{
+    color: rgba(0, 77, 37, 0.986) ;
+}
+#tribute-info{
+    max-width: 600px;
+    margin: 0px auto;
+}
+#tribute-info>h3{
+    padding: 10px;
+    text-align: center;
+}
+#tribute-info>ul li{
+    
+    margin-bottom: 30px;
+}
+#tribute-link{
+    color: white;
+}
+#tribute-link:hover{
+    color: rgb(103, 158, 101);
+}
+
+
+/** #main{
+    background-color: rgb(235, 235, 235);
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+#title{
+    text-align: center;
+}
+#main>p{
+    text-align: center;
+}
+#img-div{
+    background-color: white;
+    max-width:400px;
+    margin: 0 auto;
+    padding: 25px;
+    height:auto;
+}
+#image{
+      display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+#tribute-info{
+    max-width: 600px;
+    margin: 0px auto;
+}
+#tribute-info>h3{
+    padding: 25px;
+}
+#tribute-info>ul li{
+    
+    margin-bottom: 30px;
+}
+**/ 
